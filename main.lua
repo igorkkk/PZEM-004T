@@ -30,7 +30,7 @@ m:on("offline", function(con)
 end)
 
 publ = function()
-    answer.adc = ""..adc.read(0)
+    -- answer.adc = ""..adc.read(0)
     answer.heap = ""..node.heap()
     local sendMQ
     local getd = coroutine.create(function()
