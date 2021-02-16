@@ -1,4 +1,4 @@
--- works stable
+-- works stable now
 do
 local asknow = {
     voltage = "\176\192\168\001\001\000\026",
